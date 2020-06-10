@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-06-phonebook/static/css/main.53f4358f.chunk.css",
-    "main.js": "/goit-react-hw-06-phonebook/static/js/main.11ae8bd9.chunk.js",
-    "main.js.map": "/goit-react-hw-06-phonebook/static/js/main.11ae8bd9.chunk.js.map",
+    "main.css": "/goit-react-hw-06-phonebook/static/css/main.6cf27ba6.chunk.css",
+    "main.js": "/goit-react-hw-06-phonebook/static/js/main.f73aacb7.chunk.js",
+    "main.js.map": "/goit-react-hw-06-phonebook/static/js/main.f73aacb7.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-06-phonebook/static/js/runtime-main.2d3ded43.js",
     "runtime-main.js.map": "/goit-react-hw-06-phonebook/static/js/runtime-main.2d3ded43.js.map",
-    "static/js/2.80bae8ad.chunk.js": "/goit-react-hw-06-phonebook/static/js/2.80bae8ad.chunk.js",
-    "static/js/2.80bae8ad.chunk.js.map": "/goit-react-hw-06-phonebook/static/js/2.80bae8ad.chunk.js.map",
+    "static/js/2.40f6bbc3.chunk.js": "/goit-react-hw-06-phonebook/static/js/2.40f6bbc3.chunk.js",
+    "static/js/2.40f6bbc3.chunk.js.map": "/goit-react-hw-06-phonebook/static/js/2.40f6bbc3.chunk.js.map",
     "index.html": "/goit-react-hw-06-phonebook/index.html",
-    "precache-manifest.af362cfbacfa9fb0254c5e4658d2ad5e.js": "/goit-react-hw-06-phonebook/precache-manifest.af362cfbacfa9fb0254c5e4658d2ad5e.js",
+    "precache-manifest.5b48a5b9e06e711dbe56fc0c9a67726f.js": "/goit-react-hw-06-phonebook/precache-manifest.5b48a5b9e06e711dbe56fc0c9a67726f.js",
     "service-worker.js": "/goit-react-hw-06-phonebook/service-worker.js",
-    "static/css/main.53f4358f.chunk.css.map": "/goit-react-hw-06-phonebook/static/css/main.53f4358f.chunk.css.map",
-    "static/js/2.80bae8ad.chunk.js.LICENSE.txt": "/goit-react-hw-06-phonebook/static/js/2.80bae8ad.chunk.js.LICENSE.txt",
+    "static/css/main.6cf27ba6.chunk.css.map": "/goit-react-hw-06-phonebook/static/css/main.6cf27ba6.chunk.css.map",
+    "static/js/2.40f6bbc3.chunk.js.LICENSE.txt": "/goit-react-hw-06-phonebook/static/js/2.40f6bbc3.chunk.js.LICENSE.txt",
     "static/media/contactListItem.module.css": "/goit-react-hw-06-phonebook/static/media/delete.edccec0c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2d3ded43.js",
-    "static/js/2.80bae8ad.chunk.js",
-    "static/css/main.53f4358f.chunk.css",
-    "static/js/main.11ae8bd9.chunk.js"
+    "static/js/2.40f6bbc3.chunk.js",
+    "static/css/main.6cf27ba6.chunk.css",
+    "static/js/main.f73aacb7.chunk.js"
   ]
 }
