@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import ContactForm from './redux/containers/contactFormContainer';
-import ContactFilter from './redux/containers/contactFilterContainer';
-import ContactList from './redux/containers/contactListContainer';
+import ContactForm from './containers/contactFormContainer';
+import ContactFilter from './containers/contactFilterContainer';
+import ContactList from './containers/contactListContainer';
 import styles from './app.module.css';
-import Alert from './components/alert/alert';
 import Logo from './components/logo/logo';
 
 export default class App extends Component {
@@ -31,7 +30,6 @@ export default class App extends Component {
             <ContactFilter />
             <ContactList />
           </div>
-          <Alert />
         </div>
       </div>
     );

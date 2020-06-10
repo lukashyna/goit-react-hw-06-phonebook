@@ -7,23 +7,31 @@ import slideTransition from '../../transitions/slide.module.css';
 
 const ContactList = ({ contacts, deleteContact }) => (
   <>
-    {/* {contacts.length > 0 && ( */}
-    <TransitionGroup component="ul" className={styles.contactList}>
-      {contacts &&
-        contacts.map(contact => (
-          <CSSTransition key={contact.id} timeout={250} unmountOnExit classNames={slideTransition}>
-            <li className={styles.contactListItem} key={contact.id}>
-              <ContactListItem deleteContact={() => deleteContact(contact.id)} contact={contact.contact} />
-            </li>
-          </CSSTransition>
-        ))}
-    </TransitionGroup>
-    {/* )} */}
+    {contacts.length > 0 && (
+      <TransitionGroup component="ul" className={styles.contactList}>
+        {contacts &&
+          contacts.map(contact => (
+            <CSSTransition key={contact.id} timeout={250} unmountOnExit classNames={slideTransition}>
+              <li className={styles.contactListItem} key={contact.id}>
+                <ContactListItem deleteContact={() => deleteContact(contact.id)} contact={contact.contact} />
+              </li>
+            </CSSTransition>
+          ))}
+      </TransitionGroup>
+    )}
   </>
 );
 
 ContactList.propTypes = {
-  contacts: PropTypes.arrayOf(PropTypes.shape({ id: PropTypes.number.isRequired })).isRequired,
+  contacts: PropTypes.arrayOf(
+    PropTypes.shape({
+      contact: PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        number: PropTypes.string.isRequired,
+      }),
+      id: PropTypes.number.isRequired,
+    }),
+  ).isRequired,
   deleteContact: PropTypes.func.isRequired,
 };
 
